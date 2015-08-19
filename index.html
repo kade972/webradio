@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Radio AdventLife - Louange, Adoration Francophone</title>
+
+<meta name="description" content="LA Radio Adventiste francophone qui TE ressemble ! Louange, Adoration et Gospel."/>
+<meta property="og:url" content="http://www.adventlife.fr/adventradio/Adventradio.php">
+<meta property="og:title" content="Radio AdventLife - Louange, Gospel et Adoration Francophone">
+<meta property="og:description" content="Ecoutez AdventLife RADIO : Adoration, Louange, Gospel, Instrumental, C'est VOUS qui décidez ! Radio AdventLife est la webradio chrétienne de l'association Adventiste Adventlife">
+<meta property="og:type" content="music.radio_station">
+<meta property="og:image" content="http://www.adventlife.fr/adventradio/images/adventlife-radio.jpg">
+<meta property="og:audio" content="http://adventlife.fr/radio1.mp3">
+<meta property="og:audio:type" content="audio/vnd.facebook.bridge">
+<meta property="og:site_name" content="AdventLife">
+      
+      
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+<link href="css/forms.css" rel="stylesheet" type="text/css" />
+<meta name="viewport" content="width=320, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="apple-touch-icon" href="images/logo-app.jpg">
+<link rel="canonical" href="http://adventlife.fr/radio" /> 
+
+
+<script type="text/javascript"src="scripts/jquery-1.10.2.js"></script> 
+</head>
+
+<body>
+
+<div id="fb-root"></div>
+
+<div id="menu-head" ><a id="help" href="javascript:void(0)" target="_blank">Aide</a>   |   <a href="http://adventlife.fr/contact" target="_blank">Contactez-nous</a>   | <a href="http://adventlife.fr/hymnes-et-louanges" target="_blank">Hymnes &amp; Louanges </a>| <a href="http://www.adventlife.fr" target="_blank">Magazine </a>| <a href="http://adventlife.fr/campagne/campagne-de-dons-2015/" target="_blank"><span style="background-color:#29b05c; padding:6px; border-radius:2px;color:#FFF; font-weight:bold">Soutenir la Radio</span></a>
+
+
+
+<!--
+<div style="margin-top:15px;"><a href="http://adventlife.fr/evenement-impact-paris-du-15-au-18-en-live-sur-radio-adventlife/" target="_blank"><img style="max-width:800px; width:100%;" src="http://adventlife.fr/adventradio/images/impact-banner.gif" /></a></div>
+
+-->
+</div>
+
+
+<div id="player-container">
+		<div id="logo-small">
+        	<div id="bt-social">
+				
+<!--
+					<span id="bt-twitter">
+					  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Ecoutez RADIOAdventLife, La Radio Adventiste N°1 !" data-via="adventlife_fr" data-lang="fr" data-count="vertical">Tweet</a>
+			  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        			</span>
+-->
+					
+  					
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=237738456246350";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+					<span id="bt-facebook" class="fb-like" data-href="https://www.facebook.com/AdventLife.fr" data-width="50" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false" data-colorscheme="dark"></span>
+            
+			
+					
+		      
+  			</div>
+            
+            
+  
+        </div>
+		<div id="hackfloat">
+			<div id="radio-left">
+				<div id="player-button" class="jp-gui jp-interface">
+					
+					<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+						<div id="jp_container_1" class="jp-audio">
+							<div class="jp-type-single">
+								<div class="jp-gui jp-interface">
+									<div id="telecomande">
+									
+									<ul class="jp-controls">
+										<li><a href="javascript:;" class="jp-play" tabindex="1"><img src="images/bt-play.png" alt="Play" border="0"/></a></li>
+										<li><a href="javascript:;" class="jp-pause" tabindex="1"><img src="images/bt-pause.png" alt="Pause" border="0"/></a></li>
+										<li><a href="javascript:;" class="jp-stop" tabindex="1"><img src="images/bt-stop.png" alt="Stop" border="0"/></a></li>
+										<!--<li><a href="javascript:;" class="jp-volume-max" tabindex="1" title="max volume">max
+											volume</a></li>-->
+										<li><a href="javascript:;" class="jp-mute" tabindex="1" title="mute"><img src="images/mute-on.png" alt="Mute" border="0"/></a></li>
+										<li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute"><img src="images/mute-off.png" border="0"/></a></li>
+										<li id="loading"><img src="images/loading.gif" alt="chargement" border="0"/></li>
+										
+									</ul>
+									<span id="cc_strinfo_date_adventlife" class="cc_streaminfo radio-time"></span> <span id="cc_strinfo_time_adventlife" class="cc_streaminfo radio-time"></span>
+									<div id="player-tune"><span class="ecoute">Ecoutez sur :</span><span><a href="http://adventlife.fr:2199/tunein/adventlife.pls" target="_blank"><img src="images/bt-apple.png" border="0" /></a></span><span><a href="http://adventlife.fr:2199/tunein/adventlife.asx"><img src="images/bt-windows.png" border="0" /></a></span></div>
+									</div>
+									
+									<!--<div class="jp-volume-bar">
+										<div class="jp-volume-bar-value">
+										</div>
+									</div>-->
+									<div id="player-title" >
+										<div id="title-left">
+											<div id="txt-tiltle"><span id="cc_strinfo_tracktitle_adventlife" class="cc_streaminfo"></span></div>
+											<div id="txt-artist"><span id="cc_strinfo_trackartist_adventlife" class="cc_streaminfo"></span></div>
+										</div>
+										
+										<div id="title-right">
+											<div class="jp-current-time"></div>
+											<div id="eq"></div>
+											
+										</div>
+									</div>
+									
+									<!--<div class="jp-duration">
+									</div>-->
+									
+								</div>
+								<!--<div class="jp-title">
+									<ul>
+										<li>Testing</li>
+									</ul>
+								</div>-->
+								<div class="jp-no-solution">
+								<span style="padding-top:10px;color:#FFFFFF; font-size:20px">Votre navigateur n'est pas optimisé pour cette radio veuillez installer Chrome <a href="https://www.google.com/intl/fr_fr/chrome/browser/" target="_blank">(Cliquez ici)</a> ou mettre à jour Flash &gt;&gt; </span> <a href="http://get.adobe.com/flashplayer/"
+										target="_blank">(Cliquez ici)</a></div>
+							</div>
+						</div>
+				</div>
+				
+				<div id="all-actu"><!--populate actu du replay--></div>
+			</div>
+			<div id="radioright">
+				<ul>
+					<li>CHOIX DE STYLE </li>
+					<li style=" line-height:11px" class="style-all active-pl"><a href="#" >RADIO ADVENTLIFE</a> <span style="font-size: 10px">(Essentiellement Francophone, émissions &amp; LIVE )<br />
+					    &nbsp;</span></li>
+                    <li class="style-ador"><a href="javascript:void">ADORATION</a></li>
+					<li class="style-french"><a href="javascript:void"><img src="images/nouveau.gif" border="0" /> SOUVENIR</a></li>
+                    
+					
+					<li class="style-english"><a href="javascript:void">GOSPEL</a> </li>
+					<li class="style-instru"><a href="javascript:void">INSTRUMENTAL</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="header-dedi">
+        <div id="blocklink-dedi" >
+            	<div id="title-dedicace"><a href="javascript:void(0)"><span style="display: table-cell; vertical-align: middle; width: 100%; position: static;"><span style="font-weight:700">&gt;  ENVOYER</span> VOS DEDICACES, TEMOIGNAGES OU SUJETS DE PRIERE</span></a></div>
+			</div>
+            <div id="bt-dedicace"><a href="http://adventlife.fr/replay-predications-sermons/" target="_blank"><img src="images/replay.png" width="16" height="17" border="0" />&nbsp;&nbsp;<span>LE REPLAY</span><br />
+Ecoutez les émissions après<br />
+leurs diffusions !</a></div>
+        </div>
+		
+	</div>
+	<div id="list-dedi">
+		<!--populate liste ajax-->
+		
+		<!---->
+	</div>
+    <div id="footer" style="width:100%; height:40px; padding-top:12px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333">Design & Développement : <a href="http://www.adventlife.fr/studio" target="_blank" style="text-decoration:underline;">Studio AdventLife</a>  /  Radio Adventlife est membre d'ASI France</div>
+
+	
+	<script type="text/javascript" src="scripts/jquery.mCustomScrollbar.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.truncatable.js"></script>
+	
+    
+
+<script type='text/javascript' src='scripts/s2.js'></script>
+<script type="text/javascript" src="scripts/jquery.jplayer.min.js"></script>
+
+    
+<!--LIGHTBOX-->
+	<div id="bg-lightbox"><div id="close">FERMER</div>
+</div>
+		<div id="lightbox-help"><iframe width="100%" height="100%" src="aide.html"></iframe></div>
+		<div id="lightbox">
+			<div id="form-dedi">
+ 
+		<form class="pure-form pure-form-aligned" method="post" enctype="multipart/form-data"  name="form" id="form" autocomplete="off" >
+ 			<fieldset>
+			<div class="info">
+				<span class="error" style="display:none"><h2>DONN&Eacute;ES INVALIDE</h2></span>
+				<span  class="success" style="display:none"><h2>ENREGISTREMENT FAIT</h2></span>			</div>
+ 
+			<div class="formLayout">
+			
+			<!-- INPUTS -->
+			<div class="pure-control-group">
+			<label>JE SOUHAITE PARTAGER :</label>
+				<select name="type" id="type">
+				  <option value="1">Une Dedicace</option>
+				  <option value="3">Un Temoignage</option>
+				  <option value="2">Une Requete de prière</option>
+				</select>
+			</div>
+			<div class="pure-control-group not-dedi">
+				<label>Morceau</label>
+				<input  value="" disabled="disabled" id="song" name="song" type="text" maxlength="30" tabindex="1" size="30"/>
+			</div>
+			
+			<div class="pure-control-group">
+				<label>Votre Nom*</label>
+				<input id="nom_from" name="nom_from" type="text" maxlength="20" tabindex="1" size="30"/>
+			</div>
+ 
+			<div class="pure-control-group">
+				<label>Votre Ville*</label>
+				<input id="ville_from" name="ville_from" type="text" maxlength="20" tabindex="1" size="30"/>
+			</div>
+			
+			<div class="pure-control-group ">
+				<label>Votre Email*</label>
+				<input id="email_from" name="email_from" type="text" maxlength="40" tabindex="1" size="30"/>
+			</div>
+ 
+			<div class="pure-control-group not-dedi">
+				<label>Nom de votre ami(e)*</label>
+				<input id="nom_for" name="nom_for" type="text" maxlength="20" tabindex="1" size="30"/>
+			</div>
+ 
+			<div class="pure-control-group not-dedi">
+				<label>Ville de votre ami(e)*</label>
+				<input id="ville_for" name="ville_for" type="text" maxlength="15" tabindex="1" size="30"/>
+			</div>
+ 
+ 
+			<div class="pure-control-group not-dedi">
+				<label>Email de votre ami(e)*</label>
+				<input id="email_for" name="email_for" type="text" maxlength="40" tabindex="1" size="30"/>
+			</div>
+            <div class="pure-control-group ">
+				<label>Message</label></span>
+				<textarea id="message" name="message" type="text" maxlength="300"  rows="5" cols="25" placeholder="Votre message (300 caractères maximum)"></textarea>
+			</div>
+            
+			
+ 
+			<!-- BTN -->
+			<div class="pure-control-group">
+				
+				<input  type="submit" value="ENVOYER" class="submit"/>
+			</div>
+			</div>
+			</fieldset>
+		</form>
+ 		<span style="font-size: 10px" class="pure-control-group">*champs obligatoires</span>			</div>
+		</div>
+</div>
+<!--END LIGHTBOX-->
+
+	
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4224192-7', 'adventlife.fr');
+  ga('send', 'pageview');
+
+</script>
+<script language="javascript">
+(function(){ var centovacast = (window.centovacast||(window.centovacast={}));
+(centovacast.streaminfo||(centovacast.streaminfo={})).config = {
+
+    poll_limit: 3000,        // specify how many times to poll the server
+    poll_frequency: 10000  // specify the poll frequency in milliseconds
+
+};});
+	</script>
+
+<script language="javascript" type="text/javascript" src="http://www.adventlife.fr/streaminfo.js"></script>
+
+<div id="musicbox"></div>
+<div id="musicbox2"></div>	
+	
+</body>
+</html>

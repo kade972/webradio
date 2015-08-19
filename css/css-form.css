@@ -1,0 +1,79 @@
+<style type="text/css">
+		body{
+			background-color:#ffffff;
+			width: 60%;
+			margin: 0 auto;
+			padding: 12px 0 39px 0;
+			color: #000;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			line-height: 24px;
+		}
+		.error{
+ 
+			color:#ff0000;
+			font-size:12px;
+ 
+ 
+			}
+			
+			#form-dedi{
+				max-width: 400px;
+				margin: 0 auto;
+			}
+			
+			.success{
+ 
+			color:#61B329;
+			font-size:12px;
+ 
+ 
+			}
+		/* FORM */
+				.blok-champ{
+					clear: left;
+					overflow: hidden;
+					margin-bottom: 10px;
+					
+				}
+				
+			    .formLayout
+			    {
+			        background-color: #f3f3f3;
+			        padding: 10px;
+			    }
+ 
+			    .formLayout label
+			    {
+			        display: block;
+			        width: 30%;
+			        float: left;
+			        
+			    }
+			    
+			    .formLayout input
+			    {
+			    	float: left;
+			    	width: 50%;
+			    	height: 20px;
+			    	
+			    }
+ 
+			    .formLayout label
+			    {
+			        text-align: right;
+			        padding-right: 20px;
+			    }
+ 
+			    br
+			    {
+			        clear: left;
+			    }
+				.submit {
+				    background: #ccf;
+				}
+				.submit:hover {
+				    border: 1px solid #006;
+				    background: #eef;
+				}
+		</style>

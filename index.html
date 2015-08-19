@@ -29,6 +29,25 @@
 
 <script type="text/javascript" src="AudioStream.js"></script>
 
+<script type="text/javascript" charset="utf-8">
+    // Call onDeviceReady when PhoneGap is loaded.
+    //
+    // At this point, the document has loaded but phonegap-1.0.0.js has not.
+    // When PhoneGap is loaded and talking with the native device,
+    // it will call the event `deviceready`.
+    // 
+   
+			
+			function onBodyLoad() {		
+				document.addEventListener("deviceready", onDeviceReady, false);
+			}
+    // PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+    //
+    function onDeviceReady() {
+window.plugins.powerManagement.acquire();
+	}
+</script>
+
 <script type="text/javascript"src="scripts/jquery-1.10.2.js"></script> 
 </head>
 

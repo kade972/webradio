@@ -217,7 +217,8 @@ leurs diffusions !</a></div>
             my_media = new Media(src, onSuccess, onError);
 
             // Play audio
-            my_media.play();
+            my_media.play({ playAudioWhenScreenIsLocked : true });
+            
 
         }
 
